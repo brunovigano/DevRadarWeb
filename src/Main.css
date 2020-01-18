@@ -21,7 +21,6 @@ main ul {
   margin-top: 2px;
 }
 
-
 @media (max-width: 650px) {
   main ul {
     grid-template-columns: 1fr;

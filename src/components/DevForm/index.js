@@ -18,7 +18,7 @@ function DevForm({ onSubmit }) {
         console.log(err);
       },
       {
-        timeout: 30000
+        timeout: 30000,
       }
     );
   }, []);
@@ -29,8 +29,8 @@ function DevForm({ onSubmit }) {
     await onSubmit({
       github_username,
       techs,
-      lat: latitude,
-      lon: longitude
+      latitude,
+      longitude,
     });
 
     setGithubUsername('');
